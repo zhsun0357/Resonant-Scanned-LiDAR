@@ -1,2 +1,2 @@
 # Resonance-Scanned-LiDAR
-Scripts for the paper "Phase controlled resonance scanner", simulation and experiments
+Scripts for the paper "Phase Controlled Resonant Scanner for Fast Spatial Sampling" simulation part.
