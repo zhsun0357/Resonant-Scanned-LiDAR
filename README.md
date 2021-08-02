@@ -9,6 +9,7 @@ In this repository, we will include three useful scripts related to the paper:
 
 ## Dependencies installation
 To run the resonant scanning pattern optimization, please refer to the environment.yaml file. GPU is not required.
+
 To run the LiDAR odometry scripts, since we adapt the scripts from the repo "LOAM" https://github.com/laboshinl/loam_velodyne. Please refer to the link for dependencies installation.
 
 ## Resonant scanning pattern optimization, binary RoI
