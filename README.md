@@ -5,7 +5,7 @@ arXiv link: https://arxiv.org/abs/2103.12996
 In this repository, we will include three useful scripts related to the paper:
 1. Resonant scanning pattern optimization with binary Regions-of-Interest (RoIs) (fast implementation).
 2. Resonant scanning pattern optimization with float valued Regions-of-Interest.
-3. LiDAR odometry based on resonantly scanned point cloud.
+3. LiDAR odometry based on resonantly scanned point cloud (coming soon).
 
 ## Dependencies installation
 To run the resonant scanning pattern optimization, please refer to the environment.yaml file. GPU is not required.
@@ -26,6 +26,6 @@ Different from the binary RoI case, here the RoIs are given through a float valu
 Fast implementation is not provided in this case and the optimizatin converges have complicated dependencies on the initialization condition and the weight map definition.
 
 ## LiDAR odometry with resonantly scanned point cloud
-
+Coming Soon
 
 
