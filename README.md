@@ -14,8 +14,14 @@ To run the LiDAR odometry scripts, since we adapt the scripts from the repo "LOA
 
 ## Resonant scanning pattern optimization, binary RoI
 An example is given in the jupyter notebook "Binary_RoI_Optimization.ipynb".
+
 In this case, Regions-of-Interest (RoIs) are given by a binary map, where elements with value 1 (or other positive constants) belong to RoIs, while elements with value 0 belong to regions not of interest.
 
-Due to the simple format of the RoI, we use an approximate nearest neighbor search (FLANN ) in the script, to increase the running speed. Usually, the optimization converges within 10-20 iterations. We implement the gradient descent optimization framework with PyTorch.
+Due to the simple format of the RoI, we use an approximate nearest neighbor search (FLANN https://github.com/flann-lib/flann) in the script, to increase the running speed. Usually, the optimization converges within 10-20 iterations. We implement the gradient descent optimization framework with PyTorch.
+
+## Resonant scanning pattern optimization, float RoI
+An example is given in the jupyter notebook "Float_RoI_Optimization.ipynb".
+
+Different from the binary RoI case, 
 
 
