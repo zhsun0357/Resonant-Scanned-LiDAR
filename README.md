@@ -20,7 +20,7 @@ In this case, Regions-of-Interest (RoIs) are given by a binary map, where elemen
 Due to the simple format of the RoI, we use an approximate nearest neighbor search (FLANN https://github.com/flann-lib/flann) in the script, to increase the running speed. Usually, the optimization converges within 10-20 iterations. We implement the gradient descent optimization framework with PyTorch.
 
 ## Resonant scanning pattern optimization, float RoI
-An example is given in the jupyter notebook "Float_RoI_Optimization.ipynb".
+An example is given in the jupyter notebook "Float_RoI_Optimization.py".
 
 Different from the binary RoI case, here the RoIs are given through a float value "weight map". Each element in the weight map indicates the importance of corresponding spatial location. A spatial location is assigned a higher value if it is more important.
 Fast implementation is not provided in this case and the optimizatin converges have complicated dependencies on the initialization condition and the weight map definition.
