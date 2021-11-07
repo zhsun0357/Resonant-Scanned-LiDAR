@@ -26,6 +26,6 @@ Different from the binary RoI case, here the RoIs are given through a float valu
 Fast implementation is not provided in this case and the optimizatin converges have complicated dependencies on the initialization condition and the weight map definition.
 
 ## LiDAR odometry with resonantly scanned point cloud
-Coming Soon
+Please follow the jupyter notebook "Lissajous_odometry_simulations.ipynb".
 
 
