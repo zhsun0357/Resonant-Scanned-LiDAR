@@ -26,6 +26,9 @@ Different from the binary RoI case, here the RoIs are given through a float valu
 Fast implementation is not provided in this case and the optimizatin converges have complicated dependencies on the initialization condition and the weight map definition.
 
 ## LiDAR odometry with resonantly scanned point cloud
-Please follow the jupyter notebook "Lissajous_odometry_simulations.ipynb".
+Please follow the jupyter notebook "liss_odometry/Lissajous_odometry_simulations.ipynb".
+Before running the scripts, please first download the necessary dataset files into the folder "liss_odometry":
++ KITTI point cloud (raster scanned): https://drive.google.com/drive/folders/1Nqq_Pj9WePrrU_BXc9hrPtmklTQMyvZm?usp=sharing
++ KITTI dense depth map (estimated using depth completion algorithm: https://github.com/fangchangma/self-supervised-depth-completion): https://drive.google.com/drive/folders/1rUaSU5rmpaXjFsNPkUi57S5XymRQ16N8?usp=sharing
 
 
