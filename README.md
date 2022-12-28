@@ -1,8 +1,10 @@
 # Resonant-Scanned-LiDAR
 Scripts for the paper "[Resonant scanning design and control for fast spatial sampling]".
-
+[Zhanghao Sun], Ronald Quan, [Olav Solgaard]
 
 [Resonant scanning design and control for fast spatial sampling]: https://www.nature.com/articles/s41598-021-99373-y
+[Zhanghao Sun]: https://zhsun0357.github.io/
+[Olav Solgaard]: https://solgaardlab.stanford.edu/
 
 In this repository, we will include three useful scripts related to the paper:
 1. Resonant scanning pattern optimization with binary Regions-of-Interest (RoIs) (fast implementation).
