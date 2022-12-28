@@ -1,5 +1,6 @@
 # Resonant-Scanned-LiDAR
 Scripts for the paper "[Resonant scanning design and control for fast spatial sampling]".
+
 [Zhanghao Sun], Ronald Quan, [Olav Solgaard]
 
 [Resonant scanning design and control for fast spatial sampling]: https://www.nature.com/articles/s41598-021-99373-y
