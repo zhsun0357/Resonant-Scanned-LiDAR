@@ -1,6 +1,8 @@
 # Resonant-Scanned-LiDAR
-Scripts for the paper "Phase Controlled Resonant Scanner for Fast Spatial Sampling" simulation part.
-arXiv link: https://arxiv.org/abs/2103.12996
+Scripts for the paper "Resonant scanning design and control for fast spatial sampling".
+
+
+[Resonant scanning design and control for fast spatial sampling]: https://www.nature.com/articles/s41598-021-99373-y
 
 In this repository, we will include three useful scripts related to the paper:
 1. Resonant scanning pattern optimization with binary Regions-of-Interest (RoIs) (fast implementation).
